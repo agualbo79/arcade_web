@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="CodePixar">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Probá tu diseño</title>
+	<!--
+			CSS
+			============================================= -->
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/nouislider.min.css">
+	<link rel="stylesheet" href="css/ion.rangeSlider.css" />
+	<link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css" />
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+	<!-- Start Header Area -->
+	<header class="header_area sticky-header">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light main_box">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav ml-auto">
+							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="index.html">tienda</a></li>
+							<li class="nav-item"><a class="nav-link" href="descargas1.html">probá tu diseño</a></li>
+									
+							<li class="nav-item submenu dropdown">
+                                <a href="ABRIL_precios.jpg" class="nav-link dropdown-toggle" download>lista de precios</a>
+                              </li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li>
+							<li class="nav-item">
+								<button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="search_input" id="search_input_box">
+			<div class="container">
+				<form class="d-flex justify-content-between">
+					<input type="text" class="form-control" id="search_input" placeholder="Search Here">
+					<button type="submit" class="btn"></button>
+					<span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
+				</form>
+			</div>
+		</div>
+	</header>
+	<!-- End Header Area -->
+
+	<!-- Start Banner Area -->
+	<section class="banner-area organic-breadcrumb">
+		<div class="container">
+			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+				<div class="col-first">
+					<h1>Diseñá tus filtros</h1>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Banner Area -->
+      
+    
+	<!--================Single Product Area =================-->
+	<div class="product_image_area">
+		<div class="container">
+			<div class="row s_product_inner">
+				<div class="col-lg-6">
+					<div class="s_Product_carousel">
+						<div class="single-prd-item">
+							
+    <br><br>
+    
+
+    <script>
+        function previewImage(event) {
+            var reader = new FileReader();
+            reader.onload = function() {
+                var img = new Image();
+                img.onload = function() {
+                    var canvas = document.getElementById('canvas');
+                    var ctx = canvas.getContext('2d');
+                    var canvasWidth = canvas.width;
+					var canvasHeight = canvas.height;
+					ctx.drawImage(img, 0, 0, canvasWidth, canvasHeight);
+					ctx.drawImage(document.getElementById('template'), 0, 0, canvasWidth, canvasHeight);
+					
+					
+                }
+                img.src = reader.result;
+            }
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
+						</div>
+						<div class="single-prd-item">
+							<div style="text-align: center;">
+								<img id="template" src="plantilla.png" style="width: 300px;">
+								<canvas id="canvas" width="300" height="180"></canvas>
+							  </div>
+						</div>
+						<div class="single-prd-item">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 offset-lg-1">
+					<div class="s_product_text">
+						<h3>Subí tu diseño</h3>
+						<h2>Probá tus filtros aquí</h2>
+						
+						<p>¿Ya tenes tu diseño? podes probar aqui como se verian antes de impresion. Tambien podes descargar
+							las plantillas para diseñar.
+						</p>
+											<div class="card_area d-flex align-items-center">
+							<input type="file" id="imageInput" onchange="previewImage(event)" class="primary-btn">
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--================End Single Product Area =================-->
+	<span>&nbsp;</span>
+	<div class="section-top-border">
+        <h3 style="text-align:center;">Click para descargar la plantilla&nbsp;↓</h3>
+        <div class="row gallery-item">
+              <div class="col-md-4">
+                <a href="img/elements/plantilla.pdf" >
+                      <div class="single-gallery-image" style="background: url(img/elements/g1.jpg);"></div>
+                </a>
+          </div>
+              <div class="col-md-4">
+                  <a href="img/elements/plantilla.pdf" >
+                      <div class="single-gallery-image" style="background: url(img/elements/g2.jpg);"></div>
+                  </a>
+              </div>
+              <div class="col-md-4">
+                  <a href="img/elements/plantilla.pdf" >
+                      <div class="single-gallery-image" style="background: url(img/elements/g3.jpg);"></div>
+                  </a>
+              </div>
+              <div class="col-md-6">
+                  <a href="img/elements/plantilla.pdf" >
+                      <div class="single-gallery-image" style="background: url(img/elements/g4.jpg);"></div>
+                  </a>
+              </div>
+          <div class="col-md-6">
+                  <a href="img/elements/plantilla.pdf" >
+                      <div class="single-gallery-image" style="background: url(img/elements/g5.jpg);"></div>
+                  </a>
+              </div>
+<div class="col-md-4">
+      <a href="img/elements/g8.jpg" class="img-pop-up">						</a>
+    </div>
+        </div>
+    </div>
+      <div class="section-top-border">
+          <div class="row"> </div>
+      </div>
+      <div class="section-top-border">
+          <div class="row"> </div>
+      </div>
+  </div>
+</div>
+<span>&nbsp;</span>
+	<!-- start footer Area -->
+	<footer class="footer-area section_gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+					  <h6>Arcade Filtros</h6>
+					  <p> Filtros troquelados en tarjetas y tips organicos </p>
+					</div>
+				</div>
+				<div class="col-lg-4  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+					  <h6>Solicitá lista de precios</h6>
+					  <p>escribinos a somosarcade99@gmail.com</p>
+					  <div class="" id="mc_embed_signup">
+
+							<form target="_blank" novalidate action="https://www.filtrosarcade.com"
+							 method="get" class="form-inline">
+
+								<div class="d-flex flex-row">
+
+									<input class="form-control" name="EMAIL" placeholder="Ingresar Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
+									 required="" type="email">
+
+
+									<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+									<div style="position: absolute; left: -5000px;">
+										<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+									</div>
+
+									<!-- <div class="col-lg-4 col-md-4">
+												<button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
+											</div>  -->
+								</div>
+								<div class="info"></div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3  col-md-6 col-sm-6">
+					<div class="single-footer-widget mail-chimp">
+					  <h6 class="mb-20">Instagram </h6>
+					  <ul class="instafeed d-flex flex-wrap">
+						<li><img src="img/i1.jpg" alt=""></li>
+							<li><img src="img/i2.jpg" alt=""></li>
+							<li><img src="img/i3.jpg" alt=""></li>
+							<li><img src="img/i4.jpg" alt=""></li>
+							<li><img src="img/i5.jpg" alt=""></li>
+							<li><img src="img/i6.jpg" alt=""></li>
+							<li><img src="img/i7.jpg" alt=""></li>
+							<li><img src="img/i8.jpg" alt=""></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+					  <h6>Seguinos</h6>
+					  <p>Nuestras redes sociales</p>
+					  <div class="footer-social d-flex align-items-center">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+						
+							<a href="https://www.behance.net/somosarcade1"><i class="fa fa-behance"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+				<p class="footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | by <a href="https://www.agustinvallejo.com.ar" target="_blank">Arcade</a><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer Area -->
+
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+	 crossorigin="anonymous"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/.carousel.min.js"></script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="js/gmaps.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
