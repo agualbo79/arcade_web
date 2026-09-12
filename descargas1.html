@@ -1,311 +1,2471 @@
 <!DOCTYPE html>
-<html lang="zxx" class="no-js">
+<html lang="es" class="no-js">
 
 <head>
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/fav.png">
-	<!-- Author Meta -->
-	<meta name="author" content="CodePixar">
-	<!-- Meta Description -->
-	<meta name="description" content="">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
-	<!-- meta character set -->
-	<meta charset="UTF-8">
-	<!-- Site Title -->
-	<title>Probá tu diseño</title>
-	<!--
-			CSS
-			============================================= -->
-	<link rel="stylesheet" href="css/linearicons.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/themify-icons.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/nice-select.css">
-	<link rel="stylesheet" href="css/nouislider.min.css">
-	<link rel="stylesheet" href="css/ion.rangeSlider.css" />
-	<link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css" />
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQCKZYPM5S"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-SQCKZYPM5S');
-</script>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description"
+          content="Diseñá y probá tus filtros personalizados de Filtros Arcade.">
+
+    <title>Diseño | Filtros Arcade</title>
+
+    <link rel="shortcut icon" href="img/fav.png">
+
+
+    <!-- CSS DEL TEMPLATE -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- CSS EXCLUSIVO DE ESTA PAGINA -->
+    <link rel="stylesheet" href="css/diseno.css">
+
+</head>
+
+
 <body>
 
-	<!-- Start Header Area -->
-	<header class="header_area sticky-header">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light main_box">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							
-							
-							<li class="nav-item submenu dropdown"><a href="descargas1.html" class="nav-link dropdown-toggle" >Plantillas</a>
-								
-								<li class="nav-item submenu dropdown">
-									<a href="PRECIOS.pdf" class="nav-link dropdown-toggle">lista de precios</a>
 
-								  </li>
-							  <ul class="dropdown-menu">
-									
-									<li class="nav-item"></li>
-									<li class="nav-item"></li>
-								</ul>
-							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
-							
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-						 
-							<li class="nav-item">
-								<button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-		<div class="search_input" id="search_input_box">
-			<div class="container">
-				<form class="d-flex justify-content-between">
-					<input type="text" class="form-control" id="search_input" placeholder="Busqueda 420">
-					<button type="submit" class="btn"></button>
-					<span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
-				</form>
-			</div>
-		</div>
-	</header>
-	<!-- End Header Area -->
+<!-- =====================================================
+     HEADER
+===================================================== -->
 
-	<!-- Start Banner Area -->
-	<section class="banner-area organic-breadcrumb">
-		<div class="container">
-			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
-				<div class="col-first">
-					<h1>Diseñá tus filtros</h1>
-					
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Banner Area -->
-      
-    
-	<!--================Single Product Area =================-->
-	<div class="product_image_area">
-		<div class="container">
-			<div class="row s_product_inner">
-				<div class="col-lg-6">
-					<div class="s_Product_carousel">
-						<div class="single-prd-item">
-							
-    <br><br>
-    
+<header class="header_area sticky-header">
 
-    <script>
-        function previewImage(event) {
-            var reader = new FileReader();
-            reader.onload = function() {
-                var img = new Image();
-                img.onload = function() {
-                    var canvas = document.getElementById('canvas');
-                    var ctx = canvas.getContext('2d');
-                    var canvasWidth = canvas.width;
-					var canvasHeight = canvas.height;
-					ctx.drawImage(img, 0, 0, canvasWidth, canvasHeight);
-					ctx.drawImage(document.getElementById('template'), 0, 0, canvasWidth, canvasHeight);
-					
-					
-                }
-                img.src = reader.result;
-            }
-            reader.readAsDataURL(event.target.files[0]);
-        }
-    </script>
-						</div>
-						<div class="single-prd-item">
-							<div style="text-align: center;">
-								<img id="template" src="plantilla.png" style="width: 300px;">
-								<canvas id="canvas" width="300" height="180"></canvas>
-							  </div>
-						</div>
-						<div class="single-prd-item">
-							
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 offset-lg-1">
-					<div class="s_product_text">
-						<h3>Subí tu diseño</h3>
-						<h2>Probá tus filtros aquí</h2>
-						
-						<p>¿Ya tenes tu diseño? podes probar aqui como se verian antes de impresion. Tambien podes descargar
-							las plantillas para diseñar.
-						</p>
-											<div class="card_area d-flex align-items-center">
-							<input type="file" id="imageInput" onchange="previewImage(event)" class="primary-btn">
-							
-							
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--================End Single Product Area =================-->
-	<span>&nbsp;</span>
-	<div class="section-top-border">
-        <h3 style="text-align:center;">Click para descargar la plantilla&nbsp;↓</h3>
-        <div class="row gallery-item">
-              <div class="col-md-4">
-                <a href="img/elements/PLANTILLA6.pdf" >
-                      <div class="single-gallery-image" style="background: url(img/elements/g1.jpg);"></div>
+    <div class="main_menu">
+
+        <nav class="navbar navbar-expand-lg navbar-light main_box">
+
+            <div class="container">
+
+
+                <!-- LOGO -->
+
+                <a class="navbar-brand logo_h"
+                   href="index.html">
+
+                    <img src="img/logo.png"
+                         alt="Filtros Arcade">
+
                 </a>
-          </div>
-              <div class="col-md-4">
-                  <a href="img/elements/PLANTILLA5.pdf" >
-                      <div class="single-gallery-image" style="background: url(img/elements/g2.jpg);"></div>
-                  </a>
-              </div>
-              <div class="col-md-4">
-                  <a href="img/elements/PLANTILLA3.pdf" >
-                      <div class="single-gallery-image" style="background: url(img/elements/g3.jpg);"></div>
-                  </a>
-              </div>
-              <div class="col-md-6">
-                  <a href="img/elements/plantilla.pdf" >
-                      <div class="single-gallery-image" style="background: url(img/elements/g4.jpg);"></div>
-                  </a>
-              </div>
-          <div class="col-md-6">
-                  <a href="img/elements/plantilla.pdf" >
-                      <div class="single-gallery-image" style="background: url(img/elements/g5.jpg);"></div>
-                  </a>
-              </div>
-<div class="col-md-4">
-      <a href="img/elements/g8.jpg" class="img-pop-up">						</a>
+
+
+                <!-- BOTON MOBILE -->
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+
+
+                <!-- MENU -->
+
+                <div class="collapse navbar-collapse offset"
+                     id="navbarSupportedContent">
+
+                    <ul class="nav navbar-nav menu_nav ml-auto">
+
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="index.html">
+
+                                Home
+
+                            </a>
+
+                        </li>
+
+
+                        <li class="nav-item active">
+
+                            <a class="nav-link"
+                               href="diseno.html">
+
+                                Diseño
+
+                            </a>
+
+                        </li>
+
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="precios.html">
+
+                                Lista de precios
+
+                            </a>
+
+                        </li>
+
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="contact.html">
+
+                                Contacto
+
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
     </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="design-page-hero">
+
+    <div class="container">
+
+        <span class="design-page-kicker">
+            FILTROS ARCADE
+        </span>
+
+
+        <h1>
+            DISEÑÁ TUS<br>
+            FILTROS
+        </h1>
+
+
+        <p>
+            Subí tus imágenes, acomodalas como quieras
+            y mirá una vista previa antes de imprimir.
+        </p>
+
+
+        <a href="#probar"
+           class="design-hero-btn">
+
+            PROBÁ TU DISEÑO ↓
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EDITOR DE DISEÑO
+===================================================== -->
+
+<section class="design-tool"
+         id="probar">
+
+    <div class="container">
+
+
+        <!-- TITULO -->
+
+        <div class="design-tool-header">
+
+            <span class="design-small-title">
+                PROBÁ TU DISEÑO
+            </span>
+
+
+            <h2>
+                Armá tu diseño como quieras.
+            </h2>
+
+
+            <p>
+                Agregá una o varias imágenes.
+                Podés moverlas, agrandarlas, achicarlas,
+                rotarlas y superponerlas libremente.
+            </p>
+
         </div>
+
+
+
+        <div class="design-editor">
+
+
+            <!-- =====================================================
+                 PANEL EDITOR
+            ===================================================== -->
+
+            <div class="design-preview-panel">
+
+
+                <div class="design-preview-title">
+
+
+                    <div>
+
+                        <span>
+                            EDITOR
+                        </span>
+
+
+                        <h3>
+                            Vista previa de tu diseño
+                        </h3>
+
+                    </div>
+
+
+                    <span class="design-preview-live">
+                        ● EN VIVO
+                    </span>
+
+
+                </div>
+
+
+
+                <!-- =================================================
+                     CANVAS
+                ================================================== -->
+
+                <div class="fabric-editor-wrapper"
+                     id="editorWrapper">
+
+
+                    <!--
+                        IMPORTANTE:
+                        ESTA IMAGEN NO SE ELIMINA.
+
+                        La usamos como plantilla fija
+                        por encima de todas las imágenes.
+                    -->
+
+                    <img id="template"
+                         src="img/plantilla.png"
+                         alt=""
+                         style="display:none;">
+
+
+                    <!-- Canvas de Fabric -->
+
+                    <canvas id="designCanvas">
+                    </canvas>
+
+
+
+                    <!-- MENSAJE INICIAL -->
+
+                    <div class="design-empty-preview"
+                         id="emptyPreview">
+
+
+                        <div class="empty-preview-icon">
+                            +
+                        </div>
+
+
+                        <strong>
+                            Empezá agregando una imagen
+                        </strong>
+
+
+                        <span>
+                            Podés agregar todas las que quieras
+                        </span>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- =================================================
+                     CONTROLES DEL OBJETO
+                ================================================== -->
+
+                <div class="object-toolbar"
+                     id="objectToolbar">
+
+
+                    <span class="toolbar-title">
+                        IMAGEN SELECCIONADA
+                    </span>
+
+
+                    <div class="toolbar-buttons">
+
+
+                        <button type="button"
+                                id="bringForward">
+
+                            ↑ ADELANTE
+
+                        </button>
+
+
+                        <button type="button"
+                                id="sendBackwards">
+
+                            ↓ ATRÁS
+
+                        </button>
+
+
+                        <button type="button"
+                                id="duplicateObject">
+
+                            DUPLICAR
+
+                        </button>
+
+
+                        <button type="button"
+                                id="centerObject">
+
+                            CENTRAR
+
+                        </button>
+
+
+                        <button type="button"
+                                id="rotateLeft">
+
+                            ↶ GIRAR
+
+                        </button>
+
+
+                        <button type="button"
+                                id="rotateRight">
+
+                            GIRAR ↷
+
+                        </button>
+
+
+                        <button type="button"
+                                id="deleteObject"
+                                class="delete-object">
+
+                            ELIMINAR
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <p class="design-preview-note">
+
+                    La plantilla queda fija como guía.
+                    Seleccioná una imagen para moverla,
+                    cambiar su tamaño o rotarla.
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- =====================================================
+                 PANEL DERECHO
+            ===================================================== -->
+
+            <div class="design-upload-panel">
+
+
+                <span class="design-step">
+                    PASO 1
+                </span>
+
+
+                <h3>
+                    Agregá tus imágenes
+                </h3>
+
+
+                <p>
+                    Podés seleccionar varias juntas
+                    o seguir agregando archivos de a uno.
+                </p>
+
+
+
+                <!-- DROPZONE -->
+
+                <label for="imageInput"
+                       class="design-dropzone"
+                       id="dropzone">
+
+
+                    <div class="upload-pixel-icon">
+                        +
+                    </div>
+
+
+                    <strong>
+                        Agregar imágenes
+                    </strong>
+
+
+                    <span>
+                        Arrastrá archivos acá
+                        o hacé click para seleccionarlos
+                    </span>
+
+
+                    <small>
+                        JPG · JPEG · PNG
+                    </small>
+
+
+                </label>
+
+
+
+                <!--
+                    MULTIPLE:
+                    permite elegir varias imágenes
+                    al mismo tiempo.
+                -->
+
+                <input type="file"
+                       id="imageInput"
+                       accept="image/png,image/jpeg"
+                       multiple
+                       hidden>
+
+
+
+                <!-- CONTADOR -->
+
+                <div class="design-image-count">
+
+
+                    <span>
+                        IMÁGENES AGREGADAS
+                    </span>
+
+
+                    <strong id="imageCount">
+                        0
+                    </strong>
+
+
+                </div>
+
+
+
+                <!-- AYUDA -->
+
+                <div class="design-upload-help">
+
+
+                    <div>
+
+                        <span>✓</span>
+
+                        <p>
+                            Mové cada imagen individualmente
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>✓</span>
+
+                        <p>
+                            Agrandá, achicá y rotá
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>✓</span>
+
+                        <p>
+                            Superponé varias imágenes
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>✓</span>
+
+                        <p>
+                            Agregá todas las que necesites
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- BORRAR TODO -->
+
+                <button type="button"
+        class="download-design-btn"
+        id="downloadDesign">
+
+    DESCARGAR MI DISEÑO ↓
+
+</button>
+
+
+                <!-- WHATSAPP -->
+
+                <a href="https://wa.me/5493875118509?text=Hola%20Filtros%20Arcade!%20Quiero%20hacer%20mis%20filtros%20personalizados."
+                   target="_blank"
+                   class="design-whatsapp">
+
+                    QUIERO HACER MIS FILTROS →
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
     </div>
-      <div class="section-top-border">
-          <div class="row"> </div>
-      </div>
-      <div class="section-top-border">
-          <div class="row"> </div>
-      </div>
-  </div>
-</div>
-<span>&nbsp;</span>
-	<!-- start footer Area -->
-	<footer class="footer-area section_gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3  col-md-6 col-sm-6">
-					<div class="single-footer-widget">
-					  <h6>Arcade Filtros</h6>
-					  <p> Filtros troquelados en tarjetas y tips organicos </p>
-					</div>
-				</div>
-				<div class="col-lg-4  col-md-6 col-sm-6">
-					<div class="single-footer-widget">
-					  <h6>Solicitá lista de precios</h6>
-					  <p>escribinos a somosarcade99@gmail.com</p>
-					  <div class="" id="mc_embed_signup">
 
-							<form target="_blank" novalidate action="https://www.filtrosarcade.com"
-							 method="get" class="form-inline">
-
-								<div class="d-flex flex-row">
-
-									<input class="form-control" name="EMAIL" placeholder="Ingresar Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
-									 required="" type="email">
+</section>
 
 
-									<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-									<div style="position: absolute; left: -5000px;">
-										<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-									</div>
 
-									<!-- <div class="col-lg-4 col-md-4">
-												<button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
-											</div>  -->
-								</div>
-								<div class="info"></div>
-							</form>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3  col-md-6 col-sm-6">
-					<div class="single-footer-widget mail-chimp">
-					  <h6 class="mb-20">Instagram </h6>
-					  <ul class="instafeed d-flex flex-wrap">
-						<li><img src="img/i1.jpg" alt=""></li>
-							<li><img src="img/i2.jpg" alt=""></li>
-							<li><img src="img/i3.jpg" alt=""></li>
-							<li><img src="img/i4.jpg" alt=""></li>
-							<li><img src="img/i5.jpg" alt=""></li>
-							<li><img src="img/i6.jpg" alt=""></li>
-							<li><img src="img/i7.jpg" alt=""></li>
-							<li><img src="img/i8.jpg" alt=""></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-6 col-sm-6">
-					<div class="single-footer-widget">
-					  <h6>Seguinos</h6>
-					  <p>Nuestras redes sociales</p>
-					  <div class="footer-social d-flex align-items-center">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-						
-							<a href="https://www.behance.net/somosarcade1"><i class="fa fa-behance"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
-				<p class="footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | by <a href="https://www.agustinvallejo.com.ar" target="_blank">Arcade</a><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
-			</div>
-		</div>
-	</footer>
-	<!-- End footer Area -->
+<!-- =====================================================
+     OPCIONES DE DISEÑO
+===================================================== -->
 
-	<script src="js/vendor/jquery-2.2.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-	 crossorigin="anonymous"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/jquery.nice-select.min.js"></script>
-	<script src="js/jquery.sticky.js"></script>
-	<script src="js/nouislider.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/.carousel.min.js"></script>
-	<!--gmaps Js-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="js/gmaps.min.js"></script>
-	<script src="js/main.js"></script>
+<section class="design-options">
+
+    <div class="container">
+
+
+        <div class="design-options-heading">
+
+
+            <span>
+                ELEGÍ TU FORMA
+            </span>
+
+
+            <h2>
+                ¿Cómo querés diseñar?
+            </h2>
+
+
+            <p>
+                Descargá todas nuestras plantillas
+                para trabajar en tu programa favorito
+                o abrílas directamente en Canva.
+            </p>
+
+
+        </div>
+
+
+
+        <div class="design-options-grid">
+
+
+            <!-- =================================================
+                 DESCARGA
+            ================================================== -->
+
+            <article class="design-option-card design-download-card">
+
+
+                <div class="design-option-icon">
+                    ↓
+                </div>
+
+
+                <span class="option-kicker">
+                    DESCARGAR
+                </span>
+
+
+                <h3>
+                    Todas las plantillas
+                    en un solo archivo.
+                </h3>
+
+
+                <p>
+                    Incluye los distintos formatos
+                    para que diseñes con el programa que uses.
+                </p>
+
+
+
+                <!-- PROGRAMAS -->
+
+                <div class="design-software-logos">
+
+
+                    <!-- ILLUSTRATOR -->
+
+                    <div class="software-item">
+
+                        <div class="software-icon illustrator-icon">
+                            Ai
+                        </div>
+
+                        <span>
+                            Illustrator
+                        </span>
+
+                    </div>
+
+
+
+                    <!-- COREL -->
+
+                    <div class="software-item">
+
+                        <div class="software-icon corel-icon">
+                            CDR
+                        </div>
+
+                        <span>
+                            CorelDRAW
+                        </span>
+
+                    </div>
+
+
+
+                    <!-- PHOTOSHOP -->
+
+                    <div class="software-item">
+
+                        <div class="software-icon photoshop-icon">
+                            Ps
+                        </div>
+
+                        <span>
+                            Photoshop
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- DESCARGA -->
+
+                <a href="archivos/plantillas-filtros-arcade.rar"
+                   download
+                   class="design-option-btn design-download-btn">
+
+                    DESCARGAR PLANTILLAS ↓
+
+                </a>
+
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CANVA
+            ================================================== -->
+
+            <article class="design-option-card design-canva-card">
+
+
+                <div class="canva-logo-wrap">
+
+                    <div class="canva-css-logo">
+                        Canva
+                    </div>
+
+                </div>
+
+
+                <span class="option-kicker canva-kicker">
+                    ONLINE
+                </span>
+
+
+                <h3>
+                    Diseñá directamente
+                    en Canva.
+                </h3>
+
+
+                <p>
+                    Abrí nuestras plantillas online,
+                    agregá tu logo, colores y diseño
+                    sin instalar ningún programa.
+                </p>
+
+
+
+                <div class="canva-benefits">
+
+
+                    <span>
+                        ✓ No necesitás instalar nada
+                    </span>
+
+
+                    <span>
+                        ✓ Fácil de editar
+                    </span>
+
+
+                    <span>
+                        ✓ Plantillas listas para usar
+                    </span>
+
+
+                </div>
+
+
+
+                <a href="https://canva.link/1eg3a98o69wszyf"
+                   target="_blank"
+                   rel="noopener"
+                   class="design-option-btn design-canva-btn">
+
+                    ABRIR EN CANVA →
+
+                </a>
+
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROCESO
+===================================================== -->
+
+<section class="design-process">
+
+    <div class="container">
+
+
+        <div class="design-process-heading">
+
+
+            <span class="design-small-title">
+                DESPUÉS DEL DISEÑO
+            </span>
+
+
+            <h2>
+                ¿Qué sigue?
+            </h2>
+
+
+        </div>
+
+
+
+        <div class="design-process-grid">
+
+
+            <!-- PASO 1 -->
+
+            <div class="design-process-step">
+
+
+                <span>
+                    1
+                </span>
+
+
+                <h3>
+                    Mandanos tu archivo
+                </h3>
+
+
+                <p>
+                    Por WhatsApp nos enviás
+                    el diseño terminado.
+                </p>
+
+
+            </div>
+
+
+
+            <!-- PASO 2 -->
+
+            <div class="design-process-step">
+
+
+                <span>
+                    2
+                </span>
+
+
+                <h3>
+                    Lo revisamos
+                </h3>
+
+
+                <p>
+                    Comprobamos medidas,
+                    calidad y ubicación.
+                </p>
+
+
+            </div>
+
+
+
+            <!-- PASO 3 -->
+
+            <div class="design-process-step">
+
+
+                <span>
+                    3
+                </span>
+
+
+                <h3>
+                    Aprobás
+                </h3>
+
+
+                <p>
+                    Te mostramos cómo quedará
+                    antes de imprimir.
+                </p>
+
+
+            </div>
+
+
+
+            <!-- PASO 4 -->
+
+            <div class="design-process-step">
+
+
+                <span>
+                    4
+                </span>
+
+
+                <h3>
+                    Imprimimos
+                </h3>
+
+
+                <p>
+                    Fabricamos tus filtros
+                    y te los enviamos.
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer-area arcade-footer">
+
+    <div class="container">
+
+
+        <div class="row align-items-start">
+
+
+            <!-- MARCA -->
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+
+
+                <div class="footer-brand">
+
+
+                    <img src="img/logo.png"
+                         alt="Filtros Arcade"
+                         class="footer-logo">
+
+
+                    <span class="footer-since">
+                        SINCE 2019
+                    </span>
+
+
+                    <p>
+                        Filtros troquelados en tarjetas
+                        y tips personalizados.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- PRECIOS -->
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+
+
+                <div class="single-footer-widget footer-prices">
+
+
+                    <h6>
+                        Solicitá nuestra lista de precios
+                    </h6>
+
+
+                    <p>
+                        Escribinos por WhatsApp
+                        y te la enviamos.
+                    </p>
+
+
+                    <a href="https://wa.me/5493875118509?text=Hola%20Filtros%20Arcade!%20Quiero%20solicitar%20la%20lista%20de%20precios."
+                       target="_blank"
+                       class="footer-whatsapp-btn">
+
+                        PEDIR LISTA DE PRECIOS →
+
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- REDES -->
+
+            <div class="col-lg-4 col-md-12 col-sm-12">
+
+
+                <div class="single-footer-widget footer-follow">
+
+
+                    <h6>
+                        Seguinos
+                    </h6>
+
+
+                    <p>
+                        Novedades, diseños
+                        y trabajos reales.
+                    </p>
+
+
+                    <div class="footer-social d-flex align-items-center">
+
+
+                        <a href="https://www.instagram.com/filtrosarcade/"
+                           target="_blank"
+                           aria-label="Instagram">
+
+                            <i class="fa fa-instagram"></i>
+
+                        </a>
+
+
+                        <a href="#"
+                           target="_blank"
+                           aria-label="Facebook">
+
+                            <i class="fa fa-facebook"></i>
+
+                        </a>
+
+
+                        <a href="https://www.behance.net/somosarcade1"
+                           target="_blank"
+                           aria-label="Behance">
+
+                            <i class="fa fa-behance"></i>
+
+                        </a>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- COPYRIGHT -->
+
+        <div class="footer-bottom">
+
+
+            <p class="footer-text m-0">
+
+                Copyright &copy;
+
+                <script>
+
+                    document.write(
+                        new Date().getFullYear()
+                    );
+
+                </script>
+
+                Filtros Arcade.
+                Todos los derechos reservados.
+
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     JS TEMPLATE
+===================================================== -->
+
+<script src="js/vendor/jquery-2.2.4.min.js"></script>
+
+<script src="js/vendor/bootstrap.min.js"></script>
+
+
+
+<!-- =====================================================
+     FABRIC.JS
+===================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT DEL EDITOR
+===================================================== -->
+
+<script>
+
+document.addEventListener(
+    'DOMContentLoaded',
+    function () {
+
+
+        /* =========================================
+           TAMAÑO REAL DEL EDITOR
+        ========================================== */
+
+        const EDITOR_WIDTH =
+            650;
+
+
+        /*
+         * Tu plantilla tiene proporción
+         * aproximada 500 x 280.
+         */
+
+        const EDITOR_HEIGHT =
+            EDITOR_WIDTH *
+            (280 / 500);
+
+
+
+        /* =========================================
+           CREAR CANVAS FABRIC
+        ========================================== */
+
+        const canvas =
+            new fabric.Canvas(
+
+                'designCanvas',
+
+                {
+
+                    width:
+                        EDITOR_WIDTH,
+
+                    height:
+                        EDITOR_HEIGHT,
+
+                    preserveObjectStacking:
+                        true,
+
+                    selection:
+                        true,
+
+                    backgroundColor:
+                        '#ffffff'
+
+                }
+
+            );
+
+
+
+        /* =========================================
+           ESTILO DE CONTROLES
+        ========================================== */
+
+        fabric.Object.prototype.set({
+
+            transparentCorners:
+                false,
+
+            cornerColor:
+                '#ffd900',
+
+            cornerStrokeColor:
+                '#111111',
+
+            borderColor:
+                '#ffd900',
+
+            cornerSize:
+                12,
+
+            padding:
+                3
+
+        });
+
+
+
+        /* =========================================
+           PLANTILLA FIJA
+        ========================================== */
+
+
+        const templateElement =
+            document.getElementById(
+                'template'
+            );
+
+
+        const templateURL =
+            templateElement.getAttribute(
+                'src'
+            );
+
+
+
+        fabric.Image.fromURL(
+
+            templateURL,
+
+            function (
+                templateImage
+            ) {
+
+
+                templateImage.set({
+
+                    left:
+                        0,
+
+                    top:
+                        0,
+
+                    originX:
+                        'left',
+
+                    originY:
+                        'top',
+
+                    selectable:
+                        false,
+
+                    evented:
+                        false,
+
+                    hoverCursor:
+                        'default'
+
+                });
+
+
+
+                /*
+                 * Escalamos la plantilla
+                 * exactamente al tamaño
+                 * del editor.
+                 */
+
+                templateImage.scaleX =
+
+                    canvas.getWidth() /
+                    templateImage.width;
+
+
+
+                templateImage.scaleY =
+
+                    canvas.getHeight() /
+                    templateImage.height;
+
+
+
+                /*
+                 * OVERLAY IMAGE:
+                 *
+                 * queda siempre por encima
+                 * de las imágenes del usuario
+                 * y nunca se puede seleccionar.
+                 */
+
+                canvas.setOverlayImage(
+
+                    templateImage,
+
+                    canvas.renderAll.bind(
+                        canvas
+                    )
+
+                );
+
+            }
+
+        );
+
+
+
+        /* =========================================
+           ELEMENTOS HTML
+        ========================================== */
+
+        const imageInput =
+            document.getElementById(
+                'imageInput'
+            );
+
+
+        const dropzone =
+            document.getElementById(
+                'dropzone'
+            );
+
+
+        const emptyPreview =
+            document.getElementById(
+                'emptyPreview'
+            );
+
+
+        const objectToolbar =
+            document.getElementById(
+                'objectToolbar'
+            );
+
+
+        const imageCount =
+            document.getElementById(
+                'imageCount'
+            );
+
+
+        const deleteObject =
+            document.getElementById(
+                'deleteObject'
+            );
+
+
+        const duplicateObject =
+            document.getElementById(
+                'duplicateObject'
+            );
+
+
+        const bringForward =
+            document.getElementById(
+                'bringForward'
+            );
+
+
+        const sendBackwards =
+            document.getElementById(
+                'sendBackwards'
+            );
+
+
+        const centerObject =
+            document.getElementById(
+                'centerObject'
+            );
+
+
+        const rotateLeft =
+            document.getElementById(
+                'rotateLeft'
+            );
+
+
+        const rotateRight =
+            document.getElementById(
+                'rotateRight'
+            );
+
+
+        const downloadDesign =
+    document.getElementById(
+        'downloadDesign'
+    );
+
+        /* =========================================
+           ACTUALIZAR INTERFAZ
+        ========================================== */
+
+        function updateEditor() {
+
+
+            const objects =
+                canvas.getObjects();
+
+
+
+            const totalImages =
+                objects.filter(
+
+                    function (
+                        object
+                    ) {
+
+                        return (
+                            object.type ===
+                            'image'
+                        );
+
+                    }
+
+                ).length;
+
+
+
+            imageCount.textContent =
+                totalImages;
+
+
+
+            /*
+             * Mensaje inicial
+             */
+
+            if (
+                totalImages > 0
+            ) {
+
+                emptyPreview.style.display =
+                    'none';
+
+            }
+
+            else {
+
+                emptyPreview.style.display =
+                    'flex';
+
+            }
+
+
+
+            /*
+             * Toolbar
+             */
+
+            const selected =
+                canvas.getActiveObject();
+
+
+            if (
+                selected
+            ) {
+
+                objectToolbar
+                    .classList
+                    .add(
+                        'active'
+                    );
+
+            }
+
+            else {
+
+                objectToolbar
+                    .classList
+                    .remove(
+                        'active'
+                    );
+
+            }
+
+        }
+
+
+
+        /* =========================================
+           AGREGAR UNA IMAGEN
+        ========================================== */
+
+        function addImage(
+            file
+        ) {
+
+
+            if (
+                !file
+            ) {
+
+                return;
+
+            }
+
+
+
+            /*
+             * Solo JPG / PNG
+             */
+
+            if (
+                !file.type.match(
+                    /^image\/(png|jpeg)$/
+                )
+            ) {
+
+                alert(
+                    'Solo podés subir imágenes JPG o PNG.'
+                );
+
+                return;
+
+            }
+
+
+
+            const reader =
+                new FileReader();
+
+
+
+            reader.onload =
+                function (
+                    event
+                ) {
+
+
+                    fabric.Image.fromURL(
+
+                        event.target.result,
+
+                        function (
+                            img
+                        ) {
+
+
+                            /*
+                             * Tamaño inicial.
+                             */
+
+                            const maxWidth =
+                                canvas
+                                    .getWidth() *
+                                0.42;
+
+
+                            const maxHeight =
+                                canvas
+                                    .getHeight() *
+                                0.65;
+
+
+
+                            const scale =
+                                Math.min(
+
+                                    maxWidth /
+                                    img.width,
+
+                                    maxHeight /
+                                    img.height,
+
+                                    1
+
+                                );
+
+
+
+                            /*
+                             * Cada imagen nueva
+                             * aparece desplazada.
+                             */
+
+                            const amount =
+                                canvas
+                                    .getObjects()
+                                    .length;
+
+
+                            const offset =
+                                (
+                                    amount %
+                                    6
+                                ) * 12;
+
+
+
+                            img.set({
+
+                                left:
+
+                                    canvas
+                                        .getWidth() /
+                                    2 +
+                                    offset,
+
+                                top:
+
+                                    canvas
+                                        .getHeight() /
+                                    2 +
+                                    offset,
+
+                                originX:
+                                    'center',
+
+                                originY:
+                                    'center',
+
+                                scaleX:
+                                    scale,
+
+                                scaleY:
+                                    scale,
+
+                                angle:
+                                    0
+
+                            });
+
+
+
+                            canvas.add(
+                                img
+                            );
+
+
+                            canvas.setActiveObject(
+                                img
+                            );
+
+
+                            canvas.requestRenderAll();
+
+
+                            updateEditor();
+
+                        }
+
+                    );
+
+                };
+
+
+
+            reader.readAsDataURL(
+                file
+            );
+
+        }
+
+
+
+        /* =========================================
+           AGREGAR VARIOS ARCHIVOS
+        ========================================== */
+
+        function addFiles(
+            files
+        ) {
+
+
+            Array
+                .from(
+                    files
+                )
+                .forEach(
+
+                    function (
+                        file
+                    ) {
+
+                        addImage(
+                            file
+                        );
+
+                    }
+
+                );
+
+        }
+
+
+
+        /* =========================================
+           INPUT
+        ========================================== */
+
+        imageInput.addEventListener(
+
+            'change',
+
+            function () {
+
+
+                if (
+                    this.files &&
+                    this.files.length
+                ) {
+
+                    addFiles(
+                        this.files
+                    );
+
+                }
+
+
+
+                /*
+                 * Permite seleccionar
+                 * nuevamente el mismo archivo.
+                 */
+
+                this.value =
+                    '';
+
+            }
+
+        );
+
+
+
+        /* =========================================
+           DRAG & DROP
+        ========================================== */
+
+        dropzone.addEventListener(
+
+            'dragover',
+
+            function (
+                event
+            ) {
+
+
+                event.preventDefault();
+
+
+                dropzone
+                    .classList
+                    .add(
+                        'dragging'
+                    );
+
+            }
+
+        );
+
+
+
+        dropzone.addEventListener(
+
+            'dragleave',
+
+            function () {
+
+
+                dropzone
+                    .classList
+                    .remove(
+                        'dragging'
+                    );
+
+            }
+
+        );
+
+
+
+        dropzone.addEventListener(
+
+            'drop',
+
+            function (
+                event
+            ) {
+
+
+                event.preventDefault();
+
+
+                dropzone
+                    .classList
+                    .remove(
+                        'dragging'
+                    );
+
+
+
+                if (
+                    event
+                        .dataTransfer
+                        .files &&
+                    event
+                        .dataTransfer
+                        .files
+                        .length
+                ) {
+
+                    addFiles(
+
+                        event
+                            .dataTransfer
+                            .files
+
+                    );
+
+                }
+
+            }
+
+        );
+
+
+
+        /* =========================================
+           ELIMINAR SELECCIONADO
+        ========================================== */
+
+        deleteObject.addEventListener(
+
+            'click',
+
+            function () {
+
+
+                const activeObjects =
+                    canvas
+                        .getActiveObjects();
+
+
+
+                if (
+                    !activeObjects
+                        .length
+                ) {
+
+                    return;
+
+                }
+
+
+
+                activeObjects
+                    .forEach(
+
+                        function (
+                            object
+                        ) {
+
+                            canvas.remove(
+                                object
+                            );
+
+                        }
+
+                    );
+
+
+
+                canvas
+                    .discardActiveObject();
+
+
+                canvas
+                    .requestRenderAll();
+
+
+                updateEditor();
+
+            }
+
+        );
+
+
+
+        /* =========================================
+           DUPLICAR
+        ========================================== */
+
+        duplicateObject.addEventListener(
+
+            'click',
+
+            function () {
+
+
+                const active =
+                    canvas
+                        .getActiveObject();
+
+
+
+                if (
+                    !active
+                ) {
+
+                    return;
+
+                }
+
+
+
+                /*
+                 * Por ahora no duplicamos
+                 * selección múltiple.
+                 */
+
+                if (
+                    active.type ===
+                    'activeSelection'
+                ) {
+
+                    return;
+
+                }
+
+
+
+                active.clone(
+
+                    function (
+                        clone
+                    ) {
+
+
+                        clone.set({
+
+                            left:
+                                active.left +
+                                20,
+
+                            top:
+                                active.top +
+                                20,
+
+                            evented:
+                                true
+
+                        });
+
+
+
+                        canvas.add(
+                            clone
+                        );
+
+
+                        canvas.setActiveObject(
+                            clone
+                        );
+
+
+                        canvas.requestRenderAll();
+
+
+                        updateEditor();
+
+                    }
+
+                );
+
+            }
+
+        );
+
+
+
+        /* =========================================
+           TRAER ADELANTE
+        ========================================== */
+
+        bringForward.addEventListener(
+
+            'click',
+
+            function () {
+
+
+                const active =
+                    canvas
+                        .getActiveObject();
+
+
+                if (
+                    !active
+                ) {
+
+                    return;
+
+                }
+
+
+                canvas.bringForward(
+                    active
+                );
+
+
+                canvas.requestRenderAll();
+
+            }
+
+        );
+
+
+
+        /* =========================================
+           ENVIAR ATRAS
+        ========================================== */
+
+        sendBackwards.addEventListener(
+
+            'click',
+
+            function () {
+
+
+                const active =
+                    canvas
+                        .getActiveObject();
+
+
+                if (
+                    !active
+                ) {
+
+                    return;
+
+                }
+
+
+                canvas.sendBackwards(
+                    active
+                );
+
+
+                canvas.requestRenderAll();
+
+            }
+
+        );
+
+
+
+        /* =========================================
+           CENTRAR
+        ========================================== */
+
+        centerObject.addEventListener(
+
+            'click',
+
+            function () {
+
+
+                const active =
+                    canvas
+                        .getActiveObject();
+
+
+                if (
+                    !active
+                ) {
+
+                    return;
+
+                }
+
+
+
+                canvas.centerObject(
+                    active
+                );
+
+
+                active.setCoords();
+
+
+                canvas.requestRenderAll();
+
+            }
+
+        );
+
+
+
+        /* =========================================
+           ROTAR IZQUIERDA
+        ========================================== */
+
+        rotateLeft.addEventListener(
+
+            'click',
+
+            function () {
+
+
+                const active =
+                    canvas
+                        .getActiveObject();
+
+
+                if (
+                    !active
+                ) {
+
+                    return;
+
+                }
+
+
+
+                active.rotate(
+
+                    (
+                        active.angle ||
+                        0
+                    ) - 15
+
+                );
+
+
+                active.setCoords();
+
+
+                canvas.requestRenderAll();
+
+            }
+
+        );
+
+
+
+        /* =========================================
+           ROTAR DERECHA
+        ========================================== */
+
+        rotateRight.addEventListener(
+
+            'click',
+
+            function () {
+
+
+                const active =
+                    canvas
+                        .getActiveObject();
+
+
+                if (
+                    !active
+                ) {
+
+                    return;
+
+                }
+
+
+
+                active.rotate(
+
+                    (
+                        active.angle ||
+                        0
+                    ) + 15
+
+                );
+
+
+                active.setCoords();
+
+
+                canvas.requestRenderAll();
+
+            }
+
+        );
+
+
+
+        /* =========================================
+           BORRAR TODO
+        ========================================== */
+
+      /* =========================================
+   DESCARGAR DISEÑO SIN PLANTILLA
+========================================= */
+
+downloadDesign.addEventListener(
+    'click',
+    function () {
+
+        const objects =
+            canvas.getObjects();
+
+
+        if (!objects.length) {
+
+            alert(
+                'Primero agregá al menos una imagen.'
+            );
+
+            return;
+        }
+
+
+        /*
+         * Guardamos la plantilla actual
+         */
+
+        const currentOverlay =
+            canvas.overlayImage;
+
+
+        /*
+         * Ocultamos temporalmente la plantilla
+         */
+
+        canvas.overlayImage =
+            null;
+
+
+        /*
+         * También quitamos la selección
+         * para que no salgan bordes amarillos
+         * ni controles en la descarga.
+         */
+
+        canvas.discardActiveObject();
+
+        canvas.requestRenderAll();
+
+
+        /*
+         * Exportamos como JPG
+         */
+
+        const imageData =
+            canvas.toDataURL({
+
+                format: 'jpeg',
+
+                quality: 1,
+
+                multiplier: 2
+
+            });
+
+
+        /*
+         * Creamos descarga
+         */
+
+        const link =
+            document.createElement(
+                'a'
+            );
+
+
+        link.href =
+            imageData;
+
+
+        link.download =
+            'mi-diseno-filtros-arcade.jpg';
+
+
+        document.body.appendChild(
+            link
+        );
+
+
+        link.click();
+
+
+        document.body.removeChild(
+            link
+        );
+
+
+        /*
+         * Restauramos la plantilla
+         */
+
+        canvas.overlayImage =
+            currentOverlay;
+
+
+        canvas.requestRenderAll();
+
+    }
+);
+
+        /* =========================================
+           DELETE / BACKSPACE
+        ========================================== */
+
+        document.addEventListener(
+
+            'keydown',
+
+            function (
+                event
+            ) {
+
+
+                if (
+                    event.key !==
+                    'Delete' &&
+
+                    event.key !==
+                    'Backspace'
+                ) {
+
+                    return;
+
+                }
+
+
+
+                /*
+                 * No borrar mientras
+                 * usuario escribe.
+                 */
+
+                const activeElement =
+                    document
+                        .activeElement;
+
+
+                const tag =
+                    activeElement
+                        ? activeElement
+                            .tagName
+                        : '';
+
+
+
+                if (
+                    tag ===
+                    'INPUT' ||
+
+                    tag ===
+                    'TEXTAREA'
+                ) {
+
+                    return;
+
+                }
+
+
+
+                const objects =
+                    canvas
+                        .getActiveObjects();
+
+
+
+                if (
+                    !objects.length
+                ) {
+
+                    return;
+
+                }
+
+
+
+                event.preventDefault();
+
+
+
+                objects.forEach(
+
+                    function (
+                        object
+                    ) {
+
+                        canvas.remove(
+                            object
+                        );
+
+                    }
+
+                );
+
+
+
+                canvas
+                    .discardActiveObject();
+
+
+                canvas
+                    .requestRenderAll();
+
+
+                updateEditor();
+
+            }
+
+        );
+
+
+
+        /* =========================================
+           EVENTOS FABRIC
+        ========================================== */
+
+        canvas.on(
+
+            'selection:created',
+
+            updateEditor
+
+        );
+
+
+        canvas.on(
+
+            'selection:updated',
+
+            updateEditor
+
+        );
+
+
+        canvas.on(
+
+            'selection:cleared',
+
+            updateEditor
+
+        );
+
+
+        canvas.on(
+
+            'object:added',
+
+            updateEditor
+
+        );
+
+
+        canvas.on(
+
+            'object:removed',
+
+            updateEditor
+
+        );
+
+
+
+        /* =========================================
+           INICIALIZAR
+        ========================================== */
+
+        updateEditor();
+
+    }
+
+);
+
+</script>
+
 
 </body>
 
